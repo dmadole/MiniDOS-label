@@ -1,9 +1,9 @@
 
-sys.bin: sys.asm
-	asm02 -L -b sys.asm
-	rm -f sys.build
+label.bin: label.asm
+	asm02 -L -b label.asm
+	rm -f label.build
 
 clean:
-	rm -f sys.lst
-	rm -f sys.bin
+	rm -f label.lst
+	rm -f label.bin
 
