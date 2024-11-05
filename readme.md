@@ -1,4 +1,6 @@
-This is a command to set and display disk labels under Elf/OS. Disk labels have been defined as names for filesystems, and are contained in what would be the filename field of the master directory entry.
+# MiniDOS-label
+
+This is a command to set and display disk labels under Mini/DOS. Disk labels have been defined as names for filesystems, and are contained in what would be the filename field of the master directory entry.
 
 When run with no arguments, the label command displays the disk labels of any drives present with a label defined (not an empty string).
 
